@@ -1,0 +1,116 @@
+
+
+body{
+     background-image: url('https://specialist-pharmacy.com/wp-content/uploads/2021/05/specialist-pharmacy-compounding-pharmacy-mobile.jpg');
+     background-size: 1600px;
+     background-position-y: 25%;
+     
+}
+
+.employee-form {
+ background-color: aliceblue;
+ border-style:groove;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 40%;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.employees-table {
+    border-style: solid;
+    /* margin-bottom: 10px; */
+    /* margin-left: 10px; */
+    
+    /* width: 50%; */
+    margin: auto;
+    width: 65%;
+    display:inherit;
+        /* border: 3px solid green; */
+    /* padding: 10px; */
+}
+
+body > table{
+    width: 80%;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: aliceblue;
+}
+
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+
+th{
+    background-color: grey;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 10px 4px;
+    /* margin: 0px 0; */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    margin-right: 10px 50px;
+}
+
+input[type=reset] {
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 10px 4px;
+    /* margin: 0px 0; */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+   
+}
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}

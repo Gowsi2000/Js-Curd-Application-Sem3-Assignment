@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+     CRUD
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<h1><center>Pharmacy Lanka (pvt) Limited</center></h1>
+	
+    <br>
+			<div class="employee-form">
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Medicine Name</label><label class="validation-error hide" id="mNameValidationError">This field is required.</label>
+                        <input type="text" name="mName" id="mName">
+                    </div>
+                    <div>
+                        <label>Medicine Id</label><label class="validation-error hide" id="midValidationError">This field is required.</label>
+                        <input type="text" name="mid" id="mid">
+                    </div>
+                    <div>
+                        <label>Quantity</label><label class="validation-error hide" id="quantityValidationError">This field is required.</label>
+                        <input type="text" name="quantity" id="quantity">
+                    </div>
+                    <div>
+                        <label>Price</label><label class="validation-error hide" id="priceValidationError">This field is required.</label>
+                        <input type="text" name="price" id="price">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+		</div>
+		<br/>
+		<div class = "employees-table">
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Medicine Name</th>
+                            <th>Medicine Id</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
